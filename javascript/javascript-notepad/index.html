@@ -1,0 +1,100 @@
+<!Doctype html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script></script>
+
+    <!-- <script>
+        function load_text() {
+            document.getElementById("output").value = "text....";
+        }
+
+        function bold_click() {
+            document.getElementById("output").style.fontWeight = "bold";
+        }
+
+        function underline_click() {
+            document.getElementById("output").style.textDecoration = "underline";
+        }
+
+        function italic_click() {
+            document.getElementById("output").style.fontStyle = "italic";
+        }
+
+        function normal_click() {
+            document.getElementById("output").style.fontStyle = "normal";
+            document.getElementById("output").style.textDecoration = "none";
+            document.getElementById("output").style.fontWeight = "normal";
+        }
+    </script> -->
+</head>
+<body>
+    <header>
+        <h1>Javascript Notepad</h1>
+    </header>
+    <section class="">
+        <div class="left-topnav">
+            <a href="#">New</a>
+            <a href="#">Open</a>
+            <a href="#">Save</a>
+        </div>
+        <!-- <div class="right-topnav">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </div> -->
+        
+    </section>
+
+
+    <section class="main-area">
+        <div class="row">
+            <div class="left-column">
+                <h2>Recent Notes</h2>
+                <div class="recent-notes">
+                    <a href="#">Shopping List</a>
+                    <a href="#">Expenditures</a>
+                    <a href="#">To do</a>
+                </div>
+            </div>
+        
+            <div class="right-column">
+            <form name="controls" id="controls">
+                    <select style="width: 310px">
+                        <option selected>fonts</option>
+                        <option>arial black</option>
+                    </select>
+                
+                    <input id="button1" type="button" value="B" name="button1" style="font-weight: bold; width: 26px; height: 24px"
+                        size="28" onclick="bold_click()">
+                
+                    <input type="button" value="i" style="width: 25px; font-style: italic; height: 24px" size="30"
+                        onclick="italic_click()">
+                
+                    <input id="button1" style="width: 26px; height: 24px; text-decoration: underline" type="button" size="8" value="u"
+                        name="button1" onclick="underline_click()">
+                
+                    <input id="button1" style="width: 26px; height: 24px;" type="button" size="8" value="n" name="button1"
+                        onclick="normal_click()">
+                
+                    <br /><textarea style="width: 399px; height: 182px" id="output" name="output" rows="9" wrap="virtual"
+                        cols=48></textarea><br>
+                
+                    <p style="text-align: center"><input type="reset" value="clear"></p>
+                </form>
+            </div>
+        </div>
+        
+    
+
+    </section>
+
+
+    
+    
+    </body>
+    
+    </html>
+
+    
+</body>
+</html>
